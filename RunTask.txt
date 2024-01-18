@@ -1,0 +1,1 @@
+schtasks /create /tn "File system integrity check" /tr yourpath\sec.bat /sc daily /st 22:00 
